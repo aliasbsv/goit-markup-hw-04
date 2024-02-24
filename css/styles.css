@@ -39,20 +39,21 @@ body {
 
 /* ======== Page Header styles ======== */
 
-.current {
-  color: #404bbf;
-}
-
-.curren ::after {
-  display: block;
-  content: '';
-  width: 100%;
-}
-
 .page-hdr {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+.page-hdr-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -74,6 +75,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+
+.page-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-menu-current {
@@ -122,6 +128,11 @@ body {
   font-style: normal;
 }
 
+.page-link {
+  display: flex;
+  gap: 40px;
+}
+
 .address-link {
   font-size: 16px;
   line-height: 1.5;
@@ -133,27 +144,6 @@ body {
 .address-link:hover,
 :focus {
   color: #404bbf;
-}
-
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-
-.page-menu {
-  display: flex;
-  gap: 40px;
-}
-
-.page-link {
-  display: flex;
-  gap: 40px;
-}
-
-.page-hdr-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* ======== Hero Section styles ======== */
@@ -254,6 +244,18 @@ body {
 .benefits-liste {
   width: calc((100% - 72px) / 4);
 }
+
+.benefits-icons {
+  display: flex;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 /* ======== Team section ======== */
 .team-section {
   background: #f4f4fd;
