@@ -335,7 +335,7 @@ body {
 }
 
 .social-link:hover,
-:focus {
+.social-link:focus {
   background-color: #404bbf;
 }
 
