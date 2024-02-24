@@ -391,6 +391,15 @@ body {
   padding: 100px 0;
 }
 
+.footer_cont {
+  display: flex;
+  align-items: baseline;
+}
+
+.foot-left {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -413,6 +422,45 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.soc-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-liste-icon {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.footer-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link-foot {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-foot:hover,
+:focus {
+  background-color: #31d0aa;
+}
+
+.iconka-foot {
+  fill: #f4f4fd;
 }
 
 /* ======== container ======== */
